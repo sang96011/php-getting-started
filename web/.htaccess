@@ -1,4 +1,2 @@
 RewriteEngine On
 DirectoryIndex index.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index2.php [QSA,L]
